@@ -1,9 +1,12 @@
 import React from 'react';
-import styles from './{{pascalCase name}}.scss';
+import useStyles from './style';
 
 const {{pascalCase name}} = props => {
+
+    const classes = useStyles();
+
     return (
-        <div className={styles.main}>
+        <div>
             {{pascalCase name}}
         </div>
     );

@@ -1,8 +1,7 @@
-import React, {useRef} from 'react';
+import React from 'react';
 import useStyles from './style';
 import AccordionSummary from "@mui/material/AccordionSummary";
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
-import SvgIcon from '@mui/material/SvgIcon';
 import AccordionMenuBar from "../../containers/Accordion/AccordionMenuBar/AccordionMenuBar";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import Accordion from "@mui/material/Accordion";
