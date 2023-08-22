@@ -1,0 +1,11 @@
+{
+  "files": {
+    "main.js": "/budget-app/static/js/main.9cb3abf1.js",
+    "static/media/Roboto-Black.ttf": "/budget-app/static/media/Roboto-Black.2a4285847db4a9acb97f.ttf",
+    "index.html": "/budget-app/index.html",
+    "main.9cb3abf1.js.map": "/budget-app/static/js/main.9cb3abf1.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.9cb3abf1.js"
+  ]
+}
