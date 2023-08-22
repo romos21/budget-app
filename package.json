@@ -1,4 +1,5 @@
 {
+  "homepage": "https://romos21.github.io/budget-app/",
   "name": "budget-app",
   "version": "0.1.0",
   "private": true,
@@ -21,6 +22,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
@@ -43,5 +45,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.0.1",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^14.4.3",
+    "gh-pages": "^6.0.0"
   }
 }
