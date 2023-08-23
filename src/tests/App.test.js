@@ -30,6 +30,8 @@ test('check Add Channel modal', async () => {
 
 test('creating new channel', async () => {
     const channelTitle = 'Test Channel';
+    const bodyYouNeedEnableJava = page.getByText("\n    You need to enable JavaScript to run this app.\n    Build your budget planSetup channelsSetup your added channels by adding baseline budgets out o...")
+
 
     const AddChannelBtn = await page.waitForSelector('text=Add Channel');
     await AddChannelBtn.click();

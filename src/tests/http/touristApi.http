@@ -1,0 +1,37 @@
+GET {{apiUrl}}/api/Tourist?page=1
+
+###
+
+POST {{apiUrl}}/api/Tourist
+
+{
+   "tourist_name": "TEST USER",
+   "tourist_email": "IT_SHOULD_BE_UNIQUE_LA_LA_LA@gmail.com",
+   "tourist_location": "Paris"
+}
+
+> {%
+  client.global.set("touristId", response.body.id)
+ %}
+
+
+
+###
+
+GET {{apiUrl}}/api/Tourist/{{touristId}}
+
+
+###
+
+PUT {{apiUrl}}/api/Tourist/259778
+
+{
+   "id": 259778,
+   "tourist_name": "Mike PUT",
+   "tourist_email": "sefrgsccsPUT@gmail.com",
+   "tourist_location": "PUT"
+}
+
+###
+
+DELETE {{apiUrl}}/api/Tourist/259778
